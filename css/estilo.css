@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Love+Light&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sekuya&display=swap');
+
+* {
+
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+
+}
+
+
+.navbar {
+    display: flex;
+    height: 100px;
+    background: rgb(161, 161, 161);
+    align-items: center;
+    color: white;
+    text-shadow: 5px 5px 3px;
+
+
+}
+
+.logo {
+    margin-left: 10%;
+    text-align: left;
+    /*border: 2px red solid;*/
+    flex: 10%;
+    font-size: 70px;
+    font: bold;
+    font-family: "Love Light", cursive;
+}
+
+.menu {
+    text-shadow: 4px 3px 7px;
+    flex-grow: 1;
+    font-size: 35px;
+    flex: 60%;
+    /*border: 2px red solid;*/
+    text-align: end;
+    padding-bottom: 34px;
+    padding-top: 21px;
+    align-items: center;
+
+
+}
+
+.menu a {
+
+    margin-left: 60px;
+    font-size: 25px;
+    text-decoration: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    align-items: center;
+    color: white;
+
+}
+
+
+.menu a:hover {
+    border-top: 3px solid #282F3D;
+    color: #FF2978;
+
+
+}
+
+#button4 {
+
+    background: black;
+    margin-left: 5%;
+    margin-right: 60px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: 2px black solid;
+    border-radius: 18px;
+
+
+}
+
+#button4:hover {
+    background: #0d0828;
+    margin-left: 5%;
+    margin-right: 60px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: 2px black solid;
+    border-radius: 18px;
+    text-shadow: 7px 4px 10px;
+
+
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: left;
+    align-items: center;
+    height: 690px;
+    background-color: white;
+}
+
+.headline {
+    margin-left: 10%;
+    margin-top: 5%;
+    flex: 40%;
+    /*border: 1px solid red;*/
+}
+
+.img-headline {
+    margin-right: 10%;
+    margin-top: 5%;
+    flex: 40%;
+    /*border: 1px solid red;*/
+    text-align: center;
+    align-content: center;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #FF2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.contact-btn:hover {
+    display: inline-block;
+    background: #180f4a;
+    font-weight: bolder;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+section {
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    height: 600px;
+    width: 90%;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0%;
+    font-weight: 700;
+    font-family: "Lobster", sans-serif;
+
+}
+
+.serviços {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+
+
+}
+
+.serviços div {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    margin-top: 3%;
+    border: 1px solid #FF2978;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card1:hover {
+    display: inline-block;
+    background: #FF2978;
+    box-shadow: 0px 8px 8px gray;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+    border: 1px solid #180f4a;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card2:hover {
+    display: inline-block;
+    background: #FF2978;
+    box-shadow: 0px 8px 8px gray;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+    border: 1px solid #180f4a;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card3:hover {
+    display: inline-block;
+    background: #FF2978;
+    box-shadow: 0px 8px 8px gray;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+    border: 1px solid #180f4a;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.linha-centro {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100vh;
+    background-color: black;
+    transform: translateX(-50%);
+}
